@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "goosetilities",
+  "version": "${version}",
+  "name": "goosetilities",
+  "description": "fun things for myself and friends :)",
+  "authors": [
+    "Devon Gardner"
+  ],
+  "contact": {
+    "website": "goosur.com",
+    "repo": "https://github.com/devon-g/goosetilities"
+  },
+  "license": "All-Rights-Reserved",
+  "icon": "assets/goosetilities/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.goosur.goosetilities.client.GoosetilitiesClient"
+    ],
+    "main": [
+      "com.goosur.goosetilities.Goosetilities"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.14.17",
+    "fabric": "*",
+    "minecraft": "1.19.3"
+  }
+}
